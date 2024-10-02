@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/" method="POST" data-netlify="true">
+        <label for="fullName">Full Name (مکمّل نام):</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="fathersName">Father's Name (والد کا نام):</label><br>
+        <input type="text" id="fathersName" name="fathersName" required><br><br>
+
+        <label for="dob">Date of Birth (تاریخ ولادت):</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="address">Full Address (مستقل پتہ):</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="pincode">Pincode (پنکوڈ):</label><br>
+        <input type="text" id="pincode" name="pincode" required><br><br>
+
+        <label for="whatsappNumber">Your WhatsApp Number (آپ کا واٹس ایپ نمبر):</label><br>
+        <input type="tel" id="whatsappNumber" name="whatsappNumber" required><br><br>
+
+        <label for="guardianNumber">Guardian Mobile Number (والد یا والدہ کا موبائل نمبر):</label><br>
+        <input type="tel" id="guardianNumber" name="guardianNumber" required><br><br>
+
+        <label for="urduReadingWriting">Do you know how to read and write Urdu perfectly? (کیا آپ کو اردو مکمل طور پر پڑھنے اور لکھنے آتی ہے؟)</label><br>
+        <input type="radio" id="yes" name="urduReadingWriting" value="Yes" required>
+        <label for="yes">Yes (ہاں)</label><br>
+        <input type="radio" id="no" name="urduReadingWriting" value="No">
+        <label for="no">No (نہیں)</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
